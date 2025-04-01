@@ -18,6 +18,7 @@ console.log(fName+lName);
 num1 = 20;
 num2 = 30;
 console.log(num1+num2);
+//second changes in js
 
 
 //******Boolean Data Type */
