@@ -12,6 +12,7 @@ console.log(a+b);
 fName = "Mahesh";
 lName = "Maida";
 console.log(fName+lName);
+// Just a small update
 
 //******Number Type Data */
 num1 = 20;
