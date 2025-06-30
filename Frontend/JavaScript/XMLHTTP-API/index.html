@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+    <h1 id="hi">RANDOM DOGS PICS</h1>
+    </div>
+    
+    <div class="div">
+      <img id="image" src="" alt="" height="500" width="500">  
+    </div>
+    <div class="div">
+<button id="button">Click Button</button>
+    </div>
+
+
+    <!-- <script src="script.js"></script>  -->
+     <script src="DogApi.js"></script>
+     </body> 
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Football Competitions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .logo {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+    .info {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏆 Football Competitions</h1>
+  <div class="container" id="competitions"></div>
+
+  <script>
+    const API_URL = "https://api.football-data.org/v4/competitions/";
+    const API_KEY = "YOUR_API_KEY_HERE"; // Replace with your key
+
+    fetch(API_URL, {
+      headers: {
+        "X-Auth-Token": API_KEY
+      }
+    })
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById("competitions");
+      data.competitions.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        card.innerHTML = `
+          <img class="logo" src="${item.emblem || ''}" alt="logo" onerror="this.src='https://via.placeholder.com/60'">
+          <div class="title">${item.name}</div>
+          <div class="info">📍 ${item.area.name}</div>
+          <div class="info">🔤 Code: ${item.code || 'N/A'}</div>
+          <div class="info">📅 ${item.currentSeason ? item.currentSeason.startDate + " → " + item.currentSeason.endDate : 'No season info'}</div>
+        `;
+        container.appendChild(card);
+      });
+    })
+    .catch(err => {
+      console.error("Error fetching data:", err);
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+ -->
+
+ 
+
+  

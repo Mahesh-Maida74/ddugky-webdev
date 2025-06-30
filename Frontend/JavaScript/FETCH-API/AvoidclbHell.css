@@ -1,0 +1,37 @@
+/* #h1{
+    color: blue;
+}
+#h2{
+    color: rgb(29, 136, 17);
+}
+#h3{
+    color: rgb(210, 18, 18);
+}
+#h4{
+    color: rgb(24, 124, 39);
+}
+
+
+.image{
+    height: 100%;
+} */
+
+
+
+<style>
+  ul#resultList {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul#resultList li {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  ul#resultList img {
+    display: block;
+    margin-top: 5px;
+  }
+</style>

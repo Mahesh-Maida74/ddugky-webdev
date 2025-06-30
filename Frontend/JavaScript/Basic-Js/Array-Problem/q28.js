@@ -1,0 +1,1 @@
+//*****************   Print every second element from the array (like 1st, 3rd, 5th...) using a while loop. */
